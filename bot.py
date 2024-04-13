@@ -10,7 +10,7 @@ from os.path import join, dirname
 dotenv_path = join(dirname(__file__), '.env')
 load_dotenv(dotenv_path)
 
-TOKEN = os.environ.get("TOKEN")
+TOKEN = os.environ.get("6844412358:AAF-myPnceNrWI-XNyUj4ZBQlq8edMR6NJo")
 bot = telepotpro.Bot(TOKEN)
 
 class Music:
